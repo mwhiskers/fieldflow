@@ -1,7 +1,7 @@
 [project]
-name = "react-app"
+name = "fieldflow"
 version = "0.1.0"
-description = "React App with FastAPI Backend"
+description = "FieldFlow - field service management for plumbing shops"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,6 +10,9 @@ dependencies = [
     "httpx==0.28.1",
     "python-multipart==0.0.22",
     "watchfiles==1.1.1",
+    "psycopg2-binary>=2.9.13",
+    "sqlalchemy>=2.0.54",
+    "google-genai>=2.24.0",
 ]
 
 [tool.uv]
